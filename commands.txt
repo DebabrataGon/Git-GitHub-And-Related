@@ -1,7 +1,7 @@
 cd /  (change directory//reach root)
 git clone https://github.com/DebabrataGon/Git-GitHub-And-Related.git  (clone/download a folder)
 cd Git-GitHub-And-Related  (enter a directory/folder)
-touch README.md (?//create or access a file)
+touch README.md (?//create or access a file//for linux)
 
 git add . (add to staging area new and modified files of work directory)
 git config user.email "debabratagon33779@gmail.com" (individual repo)
@@ -10,10 +10,54 @@ git config --global user.email "debabratagon33779@gmail.com"
 git config --global user.name "Debabrata Gon"
 git commit -m "first commit" (store in Git repo history)
 git remote add origin https://github.com/DebabrataGon/Git-GitHub-And-Related.git (add remote repo connected to the url's repo)
-git remote -v (list the remote repositories that are associated with your local Git repository)
-git push -u orign master (push head of master branch of origin repo from git in github)
+git remote -v (list the remote repositories that are associated with your local Git repository v=verbose)
+git push -u orign master (push head of master branch of origin repo from git in github u=upstream)
 
 git pull origin main (pull head of main branch of origin repo from git in local repo)
-git pull --rebase origin main
+git push -u orign master
 
------
+git pull --rebase origin main (if normal push don't work use these 2 lines before it)
+git push -u origin main
+
+git init (initializing the current working directoryas git repo)
+git add folder
+git add -A (add to staging area new,modified,deleted files files of work directory)
+git add -u (add to staging area old/modified/tracked files files of work directory)
+git add --update (")
+
+git remote set-url <local repo name/origin> <...link...>    (rename Git repo)
+
+git status (list  files in staging area)
+git status -s (short status)
+
+git log (commits in current branch)
+git log -p -5 (recent 5 commits)
+
+git rm --catched waste.html (remove file from staging area)
+git rm -f first.txt (remove file forcefully)
+git rm -rf folder (r=recursively , not just delete the folder but also folders in it and so on)
+
+git checkout -b <new branch name>   (create a new branch and enter it)
+git branch <branch name> (create a new branch but do not enter it)
+
+git checkout <commit-hash> (create a detached head from that particular node)
+git checkout <branch name>  (name and enter branch <branch name>)
+
+git checkout master (go to master branch)
+git branch -M Master  (rename current branch to master) 
+git branch -a (show all branches)
+git branch -d bugs (delete bugs branch)
+git merge dev (merge dev in current branch)
+
+git revert <commit-hash> (revert a commit)
+git reset --soft <commit-hash> (only change in Git repo)
+git reset --mixed <commit-hash> (only change in Git repo,staging area)
+git reset --hard <commit-hash>  (change in Git repo,staging area,working directory)
+
+----------------------------------------------------------------------------------------
+
+mkdir folder (make directory on the current folder)
+cd folder
+cd ... (1 level up)
+ls (list files in working directory)
+clear
