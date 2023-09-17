@@ -15,3 +15,5 @@ git push -u orign master (push head of master branch of origin repo from git in 
 
 git pull origin main (pull head of main branch of origin repo from git in local repo)
 git pull --rebase origin main
+
+-----
