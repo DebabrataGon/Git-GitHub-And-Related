@@ -14,3 +14,4 @@ git remote -v (list the remote repositories that are associated with your local 
 git push -u orign master (push head of master branch of origin repo from git in github)
 
 git pull origin main (pull head of main branch of origin repo from git in local repo)
+git push -u origin main
