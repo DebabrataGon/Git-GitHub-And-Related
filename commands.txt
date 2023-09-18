@@ -25,8 +25,10 @@ git push -u <repo-name> <branch-name>
 git init (initializing the current working directoryas git repo)
 git add folder
 git add -A (add to staging area new,modified,deleted files files of work directory)
-git add -u (add to staging area old/modified/tracked files files of work directory)
+git add -u (add to staging area old/modified/tracked and deleted files of work directory in staging area)
 git add --update (")
+git commit -a -m "first commit"  (add modified and deleted files in staging area and store in Git repo history)
+git commit -am "first commit"    (")
 
 git remote set-url <local repo name/origin> <...link...>    (rename Git repo)
 
@@ -52,7 +54,10 @@ git branch -a (show all branches)
 git branch -d bugs (delete bugs branch)
 git merge dev (merge dev in current branch)
 
-git revert <commit-hash> (revert a commit)
+git revert <commit-hash> (revert a commit)  (undoes the changes introduced by a specific commit)
+git revert HEAD (revert last commit)
+git reset --hard HEAD~1 (undo last commit) (move the branch pointer to a different commit)
+git reset --hard HEAD~2 (undo 2nd last commit)
 git reset --soft <commit-hash> (only change in Git repo)
 git reset --mixed <commit-hash> (only change in Git repo,staging area)
 git reset --hard <commit-hash>  (change in Git repo,staging area,working directory)
