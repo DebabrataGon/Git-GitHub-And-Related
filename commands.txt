@@ -1,7 +1,8 @@
+git --version 
 cd /  (change directory//reach root)
 git clone https://github.com/DebabrataGon/Git-GitHub-And-Related.git  (clone/download a folder)
 cd Git-GitHub-And-Related  (enter a directory/folder)
-touch README.md (?//create or access a file//for linux)
+touch README.md (?//create or access a file)
 
 git add . (add to staging area new and modified files of work directory)
 git config user.email "debabratagon33779@gmail.com" (individual repo)
@@ -18,6 +19,8 @@ git push -u orign master
 
 git pull --rebase origin main (if normal push don't work use these 2 lines before it)
 git push -u origin main
+
+git push -u <repo-name> <branch-name>
 
 git init (initializing the current working directoryas git repo)
 git add folder
@@ -53,6 +56,9 @@ git revert <commit-hash> (revert a commit)
 git reset --soft <commit-hash> (only change in Git repo)
 git reset --mixed <commit-hash> (only change in Git repo,staging area)
 git reset --hard <commit-hash>  (change in Git repo,staging area,working directory)
+
+git push <remote-name> <branch1-name> <branch2-name> ... <branchN-name> (push multiple braches aat a time)
+git push <remote-name> --all (push all braches aat a time)
 
 ----------------------------------------------------------------------------------------
 
