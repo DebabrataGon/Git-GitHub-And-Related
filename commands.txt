@@ -12,10 +12,10 @@ git config --global user.name "Debabrata Gon"
 git commit -m "first commit" (store in Git repo history)
 git remote add origin https://github.com/DebabrataGon/Git-GitHub-And-Related.git (add remote repo connected to the url's repo)
 git remote -v (list the remote repositories that are associated with your local Git repository v=verbose)
-git push -u orign master (push head of master branch of origin repo from git in github u=upstream)
+git push -u origin master (push head of master branch of origin repo from git in github u=upstream)
 
 git pull origin main (pull head of main branch of origin repo from git in local repo)
-git push -u orign master
+git push -u origin master
 
 git pull --rebase origin main (if normal push don't work use these 2 lines before it)
 git push -u origin main
@@ -72,3 +72,15 @@ cd folder
 cd ... (1 level up)
 ls (list files in working directory)
 clear
+
+--------------------------------------------------------------------------------------------------
+
+//create repo in github,clone
+
+//add,config,commit,remote add,push
+
+//create folder in local device,init,create repo in github,push // empty folder 
+
+//create folder in local device,add content in folder,init,add,commit,create repo in github,remote add,push
+//folder with contents
+
