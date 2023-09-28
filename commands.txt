@@ -78,6 +78,10 @@ clear
 //create repo in github,clone
 
 //add,config,commit,remote add,push
+//first time
+
+//add,commit,push
+//other times
 
 //create folder in local device,init,create repo in github,push // empty folder 
 
