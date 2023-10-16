@@ -85,6 +85,6 @@ clear
 
 //create folder in local device,init,create repo in github,push // empty folder 
 
-//create folder in local device,add content in folder,init,add,commit,create repo in github,remote add,push
+//create folder in local device,add content in folder,init,add,config,commit,create repo in github,remote add,push
 //folder with contents
 
