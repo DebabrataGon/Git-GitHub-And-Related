@@ -71,9 +71,9 @@ git push <remote-name> --all (push all braches aat a time)
 OTHER COMMANDS:
 
 mkdir folder (make directory on the current folder)
-cd folder
+cd folder (change diirectry/enter a folder)
 cd ... (1 level up)
-ls (list files in working directory)
+ls (list/list files in working directory)
 clear
 
 --------------------------------------------------------------------------------------------------
